@@ -2,6 +2,14 @@
 function ChangeHello() {
     document.getElementById('hello').innerHTML="The text has been changed by JavaScript"
 }
+
+let firstName = "Denzel";
+let lastName = "Gitonga";
+
+let text = `Welcome ${firstName}, ${lastName}!`;
+
+document.getElementById("demo").innerHTML = text;
+
 // alerts
-var age = 22
-alert("Denzel is $age years old")
+let age = 22;
+alert('Denzel is '+ age + ' years old');
